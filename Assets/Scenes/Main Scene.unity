@@ -351,6 +351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Component Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1788762971856708498, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2222008276290518704, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
       propertyPath: m_Type
       value: 0
@@ -668,6 +672,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &570494222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 570494223}
+  - component: {fileID: 570494224}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &570494223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570494222}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &570494224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570494222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52e92899e76358949923cb3bd8ef43bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentButtonPrefab: {fileID: 1788762971856708498, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
+  buttonParent: {fileID: 508208176}
+  componentsObjList:
+  - {fileID: 11400000, guid: 63a4e5aa09b724147a987ecae0983deb, type: 2}
+  - {fileID: 11400000, guid: de13216b3476b874ea6615f5f32a0f67, type: 2}
+  - {fileID: 11400000, guid: df7adf95ff768ab44a0fe4c07cfe6328, type: 2}
+  componentsButtonList: []
 --- !u!1001 &647191402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -759,6 +814,10 @@ PrefabInstance:
     - target: {fileID: 1788762971856708498, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
       propertyPath: m_Name
       value: Component Button (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788762971856708498, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2222008276290518704, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
       propertyPath: m_Type
@@ -882,6 +941,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Component Button (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1788762971856708498, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2222008276290518704, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
       propertyPath: m_Type
       value: 0
@@ -1004,6 +1067,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Component Button (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1788762971856708498, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2222008276290518704, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
       propertyPath: m_Type
       value: 0
@@ -1125,6 +1192,10 @@ PrefabInstance:
     - target: {fileID: 1788762971856708498, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
       propertyPath: m_Name
       value: Component Button (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788762971856708498, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2222008276290518704, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
       propertyPath: m_Type
@@ -1528,6 +1599,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Component Button (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1788762971856708498, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2222008276290518704, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
       propertyPath: m_Type
       value: 0
@@ -1615,7 +1690,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b71f8a9422750c743967bcdd7d7a35fd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aefa6d4aed93dcc439407a93dd889972, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1945,6 +2020,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Component Button (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1788762971856708498, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2222008276290518704, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
       propertyPath: m_Type
       value: 0
@@ -2144,6 +2223,10 @@ PrefabInstance:
     - target: {fileID: 1788762971856708498, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
       propertyPath: m_Name
       value: Component Button (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788762971856708498, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2222008276290518704, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
       propertyPath: m_Type
@@ -2369,6 +2452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Component Button
       objectReference: {fileID: 0}
+    - target: {fileID: 1788762971856708498, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2222008276290518704, guid: ee8932cab26af4f489bffbc7f7aa08f0, type: 3}
       propertyPath: m_Type
       value: 0
@@ -2403,3 +2490,4 @@ SceneRoots:
   - {fileID: 452810191}
   - {fileID: 49255457}
   - {fileID: 1460176166}
+  - {fileID: 570494223}
